@@ -1,0 +1,26 @@
+nav{
+    background: linear-gradient(to right, #cd0808 , #440606);
+    color: aliceblue;
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+    }
+    
+}
+ul{
+    font-size: x-large;
+    padding-right: 10rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+    cursor: pointer;
+    
+}
+active{
+    color: rgb(42, 50, 1);
+}
